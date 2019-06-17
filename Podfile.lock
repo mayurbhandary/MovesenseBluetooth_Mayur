@@ -1,0 +1,41 @@
+PODS:
+  - Movesense (1.34.1)
+  - PromiseKit (6.8.4):
+    - PromiseKit/CorePromise (= 6.8.4)
+    - PromiseKit/Foundation (= 6.8.4)
+    - PromiseKit/UIKit (= 6.8.4)
+  - PromiseKit/CorePromise (6.8.4)
+  - PromiseKit/Foundation (6.8.4):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.8.4):
+    - PromiseKit/CorePromise
+  - SwiftyJSON (4.3.0)
+
+DEPENDENCIES:
+  - "Movesense (from `ssh://git@altssh.bitbucket.org:443/suunto/movesense-mobile-lib.git`, branch `master`)"
+  - PromiseKit (~> 6.8)
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - PromiseKit
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  Movesense:
+    :branch: master
+    :git: "ssh://git@altssh.bitbucket.org:443/suunto/movesense-mobile-lib.git"
+
+CHECKOUT OPTIONS:
+  Movesense:
+    :commit: a6ef02a6d50cb50bd4797ddd6430a79f1663d83a
+    :git: "ssh://git@altssh.bitbucket.org:443/suunto/movesense-mobile-lib.git"
+
+SPEC CHECKSUMS:
+  Movesense: dd4fae97688c73d693851af3916f91551e67f76d
+  PromiseKit: 51794a832647e7b819336dc2279039ce9f1cc49b
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+
+PODFILE CHECKSUM: b33c443002a5412ac3cc04655c1706c9e1312f11
+
+COCOAPODS: 1.7.1

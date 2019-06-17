@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E6001A3B40E63E5CA9FF3F1 /* Pods_MovesenseBluetooth_Mayur.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F20CABCE925221BC6BF25508 /* Pods_MovesenseBluetooth_Mayur.framework */; };
+		D03ECD7822B15264003E69BC /* MovesenseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03ECD7722B15264003E69BC /* MovesenseService.swift */; };
+		D03ECD7A22B15B04003E69BC /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D03ECD7922B15B04003E69BC /* CoreFoundation.framework */; };
+		D03ECD7C22B15B58003E69BC /* libmds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D03ECD7B22B15B58003E69BC /* libmds.a */; };
+		D03ECD7E22B15B7E003E69BC /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D03ECD7D22B15B7E003E69BC /* libc++.tbd */; };
+		D03ECD8022B15B96003E69BC /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D03ECD7F22B15B96003E69BC /* libz.tbd */; };
+		D063676F22B0841F00B4D2F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D063676E22B0841F00B4D2F2 /* AppDelegate.swift */; };
+		D063677122B0841F00B4D2F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D063677022B0841F00B4D2F2 /* ViewController.swift */; };
+		D063677422B0841F00B4D2F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D063677222B0841F00B4D2F2 /* Main.storyboard */; };
+		D063677622B0842000B4D2F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D063677522B0842000B4D2F2 /* Assets.xcassets */; };
+		D063677922B0842000B4D2F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D063677722B0842000B4D2F2 /* LaunchScreen.storyboard */; };
+		D063678222B0913B00B4D2F2 /* BleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D063678122B0913B00B4D2F2 /* BleController.swift */; };
+		D063678422B09BA600B4D2F2 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D063678322B09BA600B4D2F2 /* CoreBluetooth.framework */; };
+		D063678622B09C6100B4D2F2 /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D063678522B09C6100B4D2F2 /* PromiseKit.framework */; };
+		D063678822B09C6600B4D2F2 /* Movesense.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D063678722B09C6600B4D2F2 /* Movesense.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6111FCDB320D7FA202934E92 /* Pods-MovesenseBluetooth_Mayur.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovesenseBluetooth_Mayur.release.xcconfig"; path = "Target Support Files/Pods-MovesenseBluetooth_Mayur/Pods-MovesenseBluetooth_Mayur.release.xcconfig"; sourceTree = "<group>"; };
+		D03ECD7722B15264003E69BC /* MovesenseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovesenseService.swift; sourceTree = "<group>"; };
+		D03ECD7922B15B04003E69BC /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		D03ECD7B22B15B58003E69BC /* libmds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmds.a; path = "Pods/Movesense/IOS/Movesense/Release-iphoneos/libmds.a"; sourceTree = "<group>"; };
+		D03ECD7D22B15B7E003E69BC /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		D03ECD7F22B15B96003E69BC /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		D063676B22B0841F00B4D2F2 /* MovesenseBluetooth_Mayur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovesenseBluetooth_Mayur.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D063676E22B0841F00B4D2F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D063677022B0841F00B4D2F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D063677322B0841F00B4D2F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D063677522B0842000B4D2F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D063677822B0842000B4D2F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D063677A22B0842000B4D2F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D063678122B0913B00B4D2F2 /* BleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BleController.swift; sourceTree = "<group>"; };
+		D063678322B09BA600B4D2F2 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		D063678522B09C6100B4D2F2 /* PromiseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PromiseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D063678722B09C6600B4D2F2 /* Movesense.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Movesense.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E371DEFDDBE98F5E5B7A9D97 /* Pods-MovesenseBluetooth_Mayur.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovesenseBluetooth_Mayur.debug.xcconfig"; path = "Target Support Files/Pods-MovesenseBluetooth_Mayur/Pods-MovesenseBluetooth_Mayur.debug.xcconfig"; sourceTree = "<group>"; };
+		F20CABCE925221BC6BF25508 /* Pods_MovesenseBluetooth_Mayur.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MovesenseBluetooth_Mayur.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D063676822B0841F00B4D2F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D03ECD8022B15B96003E69BC /* libz.tbd in Frameworks */,
+				D03ECD7E22B15B7E003E69BC /* libc++.tbd in Frameworks */,
+				D03ECD7C22B15B58003E69BC /* libmds.a in Frameworks */,
+				D03ECD7A22B15B04003E69BC /* CoreFoundation.framework in Frameworks */,
+				D063678822B09C6600B4D2F2 /* Movesense.framework in Frameworks */,
+				D063678622B09C6100B4D2F2 /* PromiseKit.framework in Frameworks */,
+				D063678422B09BA600B4D2F2 /* CoreBluetooth.framework in Frameworks */,
+				2E6001A3B40E63E5CA9FF3F1 /* Pods_MovesenseBluetooth_Mayur.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13D41F9F1FE141FA63D331A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E371DEFDDBE98F5E5B7A9D97 /* Pods-MovesenseBluetooth_Mayur.debug.xcconfig */,
+				6111FCDB320D7FA202934E92 /* Pods-MovesenseBluetooth_Mayur.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D063676222B0841F00B4D2F2 = {
+			isa = PBXGroup;
+			children = (
+				D063676D22B0841F00B4D2F2 /* MovesenseBluetooth_Mayur */,
+				D063676C22B0841F00B4D2F2 /* Products */,
+				13D41F9F1FE141FA63D331A3 /* Pods */,
+				F63BA941AF3D8E1657DE615A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D063676C22B0841F00B4D2F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D063676B22B0841F00B4D2F2 /* MovesenseBluetooth_Mayur.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D063676D22B0841F00B4D2F2 /* MovesenseBluetooth_Mayur */ = {
+			isa = PBXGroup;
+			children = (
+				D03ECD7722B15264003E69BC /* MovesenseService.swift */,
+				D063678122B0913B00B4D2F2 /* BleController.swift */,
+				D063676E22B0841F00B4D2F2 /* AppDelegate.swift */,
+				D063677022B0841F00B4D2F2 /* ViewController.swift */,
+				D063677222B0841F00B4D2F2 /* Main.storyboard */,
+				D063677522B0842000B4D2F2 /* Assets.xcassets */,
+				D063677722B0842000B4D2F2 /* LaunchScreen.storyboard */,
+				D063677A22B0842000B4D2F2 /* Info.plist */,
+			);
+			path = MovesenseBluetooth_Mayur;
+			sourceTree = "<group>";
+		};
+		F63BA941AF3D8E1657DE615A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D03ECD7F22B15B96003E69BC /* libz.tbd */,
+				D03ECD7D22B15B7E003E69BC /* libc++.tbd */,
+				D03ECD7B22B15B58003E69BC /* libmds.a */,
+				D03ECD7922B15B04003E69BC /* CoreFoundation.framework */,
+				D063678722B09C6600B4D2F2 /* Movesense.framework */,
+				D063678522B09C6100B4D2F2 /* PromiseKit.framework */,
+				D063678322B09BA600B4D2F2 /* CoreBluetooth.framework */,
+				F20CABCE925221BC6BF25508 /* Pods_MovesenseBluetooth_Mayur.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D063676A22B0841F00B4D2F2 /* MovesenseBluetooth_Mayur */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D063677D22B0842000B4D2F2 /* Build configuration list for PBXNativeTarget "MovesenseBluetooth_Mayur" */;
+			buildPhases = (
+				2A84FD7C98AE13FCE3DEEE0F /* [CP] Check Pods Manifest.lock */,
+				D063676722B0841F00B4D2F2 /* Sources */,
+				D063676822B0841F00B4D2F2 /* Frameworks */,
+				D063676922B0841F00B4D2F2 /* Resources */,
+				0AF38F550058F053C29A43C3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MovesenseBluetooth_Mayur;
+			productName = MovesenseBluetooth_Mayur;
+			productReference = D063676B22B0841F00B4D2F2 /* MovesenseBluetooth_Mayur.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D063676322B0841F00B4D2F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Mayur Bhandary";
+				TargetAttributes = {
+					D063676A22B0841F00B4D2F2 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = D063676622B0841F00B4D2F2 /* Build configuration list for PBXProject "MovesenseBluetooth_Mayur" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D063676222B0841F00B4D2F2;
+			productRefGroup = D063676C22B0841F00B4D2F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D063676A22B0841F00B4D2F2 /* MovesenseBluetooth_Mayur */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D063676922B0841F00B4D2F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D063677922B0842000B4D2F2 /* LaunchScreen.storyboard in Resources */,
+				D063677622B0842000B4D2F2 /* Assets.xcassets in Resources */,
+				D063677422B0841F00B4D2F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AF38F550058F053C29A43C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MovesenseBluetooth_Mayur/Pods-MovesenseBluetooth_Mayur-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MovesenseBluetooth_Mayur/Pods-MovesenseBluetooth_Mayur-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MovesenseBluetooth_Mayur/Pods-MovesenseBluetooth_Mayur-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A84FD7C98AE13FCE3DEEE0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MovesenseBluetooth_Mayur-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D063676722B0841F00B4D2F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D063678222B0913B00B4D2F2 /* BleController.swift in Sources */,
+				D063677122B0841F00B4D2F2 /* ViewController.swift in Sources */,
+				D063676F22B0841F00B4D2F2 /* AppDelegate.swift in Sources */,
+				D03ECD7822B15264003E69BC /* MovesenseService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D063677222B0841F00B4D2F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D063677322B0841F00B4D2F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D063677722B0842000B4D2F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D063677822B0842000B4D2F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D063677B22B0842000B4D2F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D063677C22B0842000B4D2F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D063677E22B0842000B4D2F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E371DEFDDBE98F5E5B7A9D97 /* Pods-MovesenseBluetooth_Mayur.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VQJDJ6XANG;
+				INFOPLIST_FILE = MovesenseBluetooth_Mayur/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/Movesense/IOS/Movesense/Release-iphoneos",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mayurbhandary.MovesenseBluetooth-Mayur";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pods/Movesense/IOS/Movesense/swift/Movesense-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D063677F22B0842000B4D2F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6111FCDB320D7FA202934E92 /* Pods-MovesenseBluetooth_Mayur.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VQJDJ6XANG;
+				INFOPLIST_FILE = MovesenseBluetooth_Mayur/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/Movesense/IOS/Movesense/Release-iphoneos",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mayurbhandary.MovesenseBluetooth-Mayur";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pods/Movesense/IOS/Movesense/swift/Movesense-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D063676622B0841F00B4D2F2 /* Build configuration list for PBXProject "MovesenseBluetooth_Mayur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D063677B22B0842000B4D2F2 /* Debug */,
+				D063677C22B0842000B4D2F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D063677D22B0842000B4D2F2 /* Build configuration list for PBXNativeTarget "MovesenseBluetooth_Mayur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D063677E22B0842000B4D2F2 /* Debug */,
+				D063677F22B0842000B4D2F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D063676322B0841F00B4D2F2 /* Project object */;
+}

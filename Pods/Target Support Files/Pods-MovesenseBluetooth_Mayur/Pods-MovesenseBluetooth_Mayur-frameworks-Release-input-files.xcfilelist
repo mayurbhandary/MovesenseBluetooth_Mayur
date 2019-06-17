@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-MovesenseBluetooth_Mayur/Pods-MovesenseBluetooth_Mayur-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Movesense/Movesense.framework
+${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework

@@ -1,0 +1,6 @@
+framework module Movesense {
+  umbrella header "Movesense-umbrella.h"
+
+  export *
+  module * { export * }
+}
