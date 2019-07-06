@@ -160,7 +160,7 @@ final public class MovesenseService: NSObject {
 
     /// Establish a connection to the specific Movesense device
     public func connectDevice(_ serial: String) {
-        self.bleController.stopScan();
+        //self.bleController.stopScan(); //This line is preventing multiple movesense sensors from having the opportunity to connect -Mayur
         let device = self.getDevice(serial)!
         self.mds.connectPeripheral(with: device.uuid);
     }
